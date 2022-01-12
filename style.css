@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+
+body {
+    width: 100vh;
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    left: 62%;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: hsl(186, 14%, 43%);
+}
+
+.tter {
+    position: relative;
+    top: 30px;
+    right: 85px;
+}
+
+.container {
+    width: 700px;
+    height: 350px;
+    background-color: hsl(186, 14%, 43%);
+    position: absolute;
+    left: 50vh;
+    top: 30%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.dollar {
+    position: absolute;
+    left: 40px;
+    top: 55px;
+    font-weight: 600;
+    color: grey;
+}
+
+.user-image {
+    position: absolute;
+    left: 40px;
+    bottom: 23px;
+}
+
+.bill-input {
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    border-style: none;
+    background-color: hsl(189, 41%, 97%);
+    font-size: 24px;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+    font-family: 'Space Mono',
+        monospace;
+    outline-color: hsl(172, 67%, 45%);
+    
+}
+
+
+
+
+.tip-input {
+    margin: 20px 0 30px 0px;
+}
+
+.tip-select {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.tip-buttons {
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+    border-style: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Space Mono',
+        monospace;
+}
+
+.custom-button {
+    color: grey;
+    background-color: hsl(189, 41%, 97%);
+    outline-color: hsl(172, 67%, 45%);
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    color: grey;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Space Mono',
+        monospace;
+    text-align: right;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.custom-button:focus::placeholder {
+    color: transparent;
+}
+
+.custom-button:active {
+    background-color: hsl(189, 41%, 97%);
+
+}
+
+.btn:active {
+    background-color: hsl(185, 41%, 84%)
+}
+
+.btn:focus {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    font-weight: 600;
+
+}
+
+.tip-text {
+    margin-bottom: 10px;
+    color: grey;
+    font-weight: 550;
+    font-size: 15px;
+
+}
+
+.label-text {
+    color: grey;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.output-container {
+    width: 310px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 25px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.output-amount {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.output-text {
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+
+}
+
+.lower-txt {
+    color: grey;
+    font-size: 15px;
+}
+
+.output-number {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.output-tip-amount {
+    position: relative;
+    top: 70px;
+    right: 50px;
+    font-size: 30px;
+    font-family: 'Space Mono',
+        monospace;
+    font-weight: 600;
+    color: hsl(172, 67%, 45%);
+}
+
+.output-total-amount {
+    position: relative;
+    top: 120px;
+    right: 50px;
+    font-size: 30px;
+    font-family: 'Space Mono',
+        monospace;
+    font-weight: 600;
+    color: hsl(172, 67%, 45%);
+}
+
+
+
+.output-amount button {
+    margin-top: 40px;
+    width: 220px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+    border-radius: 5px;
+    border: hidden;
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono',
+        monospace;
+    font-weight: 600;
+}
+
+.output-amount button:active {
+    background-color: hsl(185, 41%, 84%);
+}
